@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Css/Main.css">
+    <link rel="icon" href="Images/Logo.png">
+    <title>ABC University</title>
+</head>
+
+<body>
+    <Section class="header">
+        <nav>
+            <a href="Index.html"><img src="Images/Logo.png" alt="Logo"></a>
+            <div class="links" id="links">
+                <i class='bx bx-x' onclick="Hide()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="Index.html#courses">COURSES</a></li>
+                    <li><a href="/About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="/LOGIN.html">LOG-IN</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="Show()"></i>
+        </nav>
+        <div class="text">
+            <h1>ABC University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad non dignissimos nam numquam minus officiis
+                incidunt accusantium debitis voluptatibus vitae nostrum voluptatem reprehenderit, iste quos.Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Eligendi est quo nostrum! Aliquid eius animi cum sapiente
+                blanditiis porro enim sint, reprehenderit, pariatur quas consequuntur.</p>
+            <a href="#" class="btn"><b>Click Here To Learn More ></b></a>
+        </div>
+    </Section>
+
+    <Section class="campus">
+        <h3>Our Campus</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eaque.</p>
+        <img src="/Images/Campus.jpg" alt="">
+
+        <div class="row">
+            <div class="campus-col">
+                <div class="layer">
+                    <h4>Sydeny</h4>
+                </div>
+                <img src="/Images/Campus-1.jpg" alt="">
+            </div>
+
+            <div class="campus-col">
+                <div class="layer">
+                    <h4>Royal London</h4>
+                </div>
+                <img src="/Images/Campus-2.jpg" alt="">
+            </div>
+
+            <div class="campus-col">
+                <div class="layer">
+                    <h4>Time Square</h4>
+                </div>
+                <img src="/Images/Campus-3.jpg" alt="">
+            </div>
+        </div>
+    </Section>
+
+    <Section class="map">
+        <h2>Contact Us</h2>
+        <div class="map-emb">
+            <iframe class="location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.3448729869096!2d-0.30539128466016324!3d51.50688861856226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760df3035c5dfd%3A0x422f2334ccf21438!2sUniversity%20of%20West%20London!5e0!3m2!1sen!2s!4v1668084106107!5m2!1sen!2s"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="row">
+            <div class="map-col">
+                <form action="">
+                    <h2>Leave Your Message</h2>
+                    <input type="text" name="name" class="form-info" placeholder="Enter Your Name" required
+                        autocomplete="off">
+                    <input type="email" class="form-info" placeholder="Enter Your Email" required autocomplete="off">
+                    <textarea name="" class="form-info" cols="20" rows="5" placeholder="Type Your Message" required
+                        autocomplete="off"></textarea>
+                    <input type="submit" class="button" value="Send">
+                </form>
+            </div>
+        </div>
+    </Section>
+
+    <Section class="C_footer">
+        <p>All Copy &copy; Right Reserved 2022-23</p>
+        <div class="icons">
+            <h5>Follow Us On</h5>
+            <i class='bx bxl-facebook' id="facebook"></i>
+            <i class='bx bxl-instagram' id="instagram"></i>
+            <i class='bx bxl-twitter' id="twitter"></i>
+            <i class='bx bxl-linkedin' id="linkein"></i>
+        </div>
+    </Section>
+
+
+
+    <script>
+        var Links = document.getElementById("links");
+        function Show() {
+            Links.style.right = "0";
+        }
+        function Hide() {
+            Links.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

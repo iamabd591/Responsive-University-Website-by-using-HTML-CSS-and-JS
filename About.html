@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Css/Main.css">
+    <link rel="icon" href="Images/Logo.png">
+    <title>ABC University</title>
+</head>
+
+<body>
+    <Section class="header">
+        <nav>
+            <a href="Index.html"><img src="Images/Logo.png" alt="Logo"></a>
+            <div class="links" id="links">
+                <i class='bx bx-x' onclick="Hide()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="Index.html#courses"">COURSES</a></li>
+                    <li><a href=" /About.html">ABOUT</a></li>
+                    <li><a href="/Contact.html">CONTACT</a></li>
+                    <li><a href=" #">LOG-IN</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="Show()"></i>
+        </nav>
+        <div class="text">
+            <h1>ABC University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad non dignissimos nam numquam minus officiis
+                incidunt accusantium debitis voluptatibus vitae nostrum voluptatem reprehenderit, iste quos.Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Eligendi est quo nostrum! Aliquid eius animi cum sapiente
+                blanditiis porro enim sint, reprehenderit, pariatur quas consequuntur.</p>
+            <a href="#" class="btn"><b>Click Here To Learn More ></b></a>
+        </div>
+    </Section>
+
+    <Section class="row">
+        <div class="about_col">
+            <h2>Who we are</h2>
+            <p>The ABC University is the UK’s leading provider of digital and blended distance education
+                internationally, offering programmes to 45,000 students in 190 countries around the world. Although
+                proudly rooted in London, our community and impact are global.We are a national leader in the
+                humanities, and we promote their value to society and the economy
+                through knowledge creation and exchange.We are also a federation of 17 esteemed higher education
+                institutions, with collaboration at the heart
+                of our ethos. The ABC University federation is a collective community of more than 240,000 learners and
+                50,000 staff, delivering world-leading research across all disciplines. Our passion for increasing
+                access to education and mobilising the collective power and expertise of the
+                federation is central to our ability to transform lives around the world and address the global
+                challenges of the future.</p>
+        </div>
+    </Section>
+    <Section class="find_out">
+        <h3>Find Out More About Us</h3>
+        <div class="row">
+            <div class="fal-col">
+                <img src="/Images/History.jpg"" alt="">
+                <h4>Our History</h4>
+                <p>We are proud of our rich heritage as one of the world’s most academically and socially pioneering educational institutions. Faced with an increasingly complex and rapidly changing global landscape, we are set to mobilise our worldwide community, as we have done with pride in the past, to help address some of today’s most pressing issues.</p>
+                    <button>Read More</button>
+            </div>
+
+
+            <div class=" fal-col">
+                <img src="/Images/Strategy.jpg" alt="">
+                <h4>Our Strategy</h4>
+                <p>Through our pioneering education and research infrastructure, we empower our diverse academic
+                    community to positively transform lives and society. Our strategic aim is to enrich our academic
+                    work in the pursuit of excellence in education, research and knowledge exchange through
+                    collaboration .</p>
+                <button>Read More</button>
+            </div>
+
+
+            <div class="fal-col">
+                <img src="/Images/Student.jpg" alt="">
+                <h4>Our Students</h4>
+                <p>The University of London is a national leader in the humanities: our School of Advanced Study is the
+                    only UK institution that is nationally funded by Research England to promote and facilitate
+                    humanities research. We steer the national conversation through knowledge exchange and public
+                    engagement, contributing creativity</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </Section>
+
+    <Section class="enroll">
+        <h3>Enrolled In Our Courses</h3>
+        <img src="/Images/Study.jpg" alt="">
+        <p>Now You Can Enrolled In Our Courses Through OnLine Addmission Portal. <br>Click Down Below.</p>
+        <button>Enroll Now</button>
+    </Section>
+
+    <Section class="a_footer">
+        <p>All Copy &copy; Right Reserved 2022-23</p>
+        <div class="icons">
+            <h5>Follow Us On</h5>
+            <i class='bx bxl-facebook' id="facebook"></i>
+            <i class='bx bxl-instagram' id="instagram"></i>
+            <i class='bx bxl-twitter' id="twitter"></i>
+            <i class='bx bxl-linkedin' id="linkein"></i>
+        </div>
+    </Section>
+
+
+
+    <script>
+        var Links = document.getElementById("links");
+        function Show() {
+            Links.style.right = "0";
+        }
+        function Hide() {
+            Links.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
